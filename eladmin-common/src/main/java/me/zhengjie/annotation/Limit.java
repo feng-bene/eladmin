@@ -31,8 +31,4 @@ public @interface Limit {
 
     // 限制类型
     LimitType limitType() default LimitType.CUSTOMER;
-
-    //增加访问次数
-    int voitCount();
-
 }
